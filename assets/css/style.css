@@ -1,0 +1,68 @@
+body   {
+
+}
+h2{
+    text-align: left;
+    margin-right: 20px;
+    position: relative;
+    padding: 20px; 
+    background-color: bisque;
+    color: rgb(122, 50, 189);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    height: 250px;
+    text-align: left;
+    position: relative;
+    padding: 40px;
+    background-color: rgb(214, 248, 248);
+    font-size: 14px;
+    color: rgb(47, 155, 182);
+}
+.words {
+    text-align: left;
+    margin-left: 20px;
+    color: rgb(51, 49, 49);
+}
+#random {
+    width: 20%;
+    height: 100px;
+    padding-left: 10px;
+    background-color: rgb(70, 238, 238);
+    display: inline;
+    position: absolute;
+    font-size: 30px;
+    left: 10px;
+    color: rgb(51, 49, 49);
+    text-align: left;
+}
+
+#total {
+    width: 25%;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(70, 238, 238);
+    display: inline;
+    position: absolute;
+    left: 300px;
+}
+#result {
+    width: 15%;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(70, 238, 238);
+    display: inline;
+    color: rgb(51, 49, 49);
+    position: absolute;
+    left: 700px;
+}
+#loss {
+        width: 15%;
+        height: 100px;
+        padding: 20px;
+        background-color: rgb(70, 238, 238);
+        display: inline;
+        color: rgb(51, 49, 49);
+        position: absolute;
+        bottom: 120px;
+        left: 700px;
