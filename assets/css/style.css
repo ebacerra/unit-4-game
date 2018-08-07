@@ -1,7 +1,8 @@
 body   {
-
+    width: 980px;
 }
 h2{
+    width: 980px;
     text-align: left;
     margin-right: 20px;
     position: relative;
@@ -16,53 +17,72 @@ p {
     position: relative;
     padding: 40px;
     background-color: rgb(214, 248, 248);
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: bold;
     color: rgb(47, 155, 182);
 }
-.words {
-    text-align: left;
-    margin-left: 20px;
-    color: rgb(51, 49, 49);
-}
-#random {
-    width: 20%;
-    height: 100px;
-    padding-left: 10px;
-    background-color: rgb(70, 238, 238);
-    display: inline;
-    position: absolute;
-    font-size: 30px;
-    left: 10px;
-    color: rgb(51, 49, 49);
-    text-align: left;
+#title1 {
+     position: absolute;
+     display: inline;
+     margin-top: 10px;
+     left: 200px;
+     color: rgb(54, 53, 53);  
 }
 
-#total {
-    width: 25%;
-    height: 100px;
-    padding: 20px;
-    background-color: rgb(70, 238, 238);
-    display: inline;
+#title2 {
     position: absolute;
-    left: 300px;
+     display: inline;
+     margin-left: 20px;
+     margin-top: 10px;
+     left: 500px;
+     color: rgb(54, 53, 53);
+    
+}
+#title3{
+    position: absolute;
+     display: inline;
+     margin-left: 20px;
+     margin-top: 10px;
+     left: 500px;
+     color: rgb(54, 53, 53);
+     bottom: 200px;
+}
+
+#random {
+    position: absolute;
+    
+    left: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(97, 243, 243);
+
+}
+#total {
+    position: absolute;
+    left: 180px;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(97, 243, 243);
 }
 #result {
-    width: 15%;
-    height: 100px;
-    padding: 20px;
-    background-color: rgb(70, 238, 238);
-    display: inline;
-    color: rgb(51, 49, 49);
     position: absolute;
-    left: 700px;
+    left: 500px;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(97, 243, 243);
 }
 #loss {
-        width: 15%;
-        height: 100px;
-        padding: 20px;
-        background-color: rgb(70, 238, 238);
-        display: inline;
-        color: rgb(51, 49, 49);
-        position: absolute;
-        bottom: 120px;
-        left: 700px;
+    position: absolute;
+    left: 500px;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(97, 243, 243); 
+    bottom: 150px;
+}
+.button {
+    display: inline-flex;
+    margin-top: 180px;
+    margin-left: 50px;
+    float: center;
+
+}
