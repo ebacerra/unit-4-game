@@ -35,42 +35,51 @@ $(document).ready(function () {
     $(".button").on("click", function () {
         var value = $(this).val();
         console.log(value);
+
         value = Math.floor(Math.random() * (1 - 12 + 1)) + 12;
         totalSumCounter += parseInt(value);
-        console.log(totalSumCounter)
+        console.log(totalSumCounter + "total")
+
+        if (totalSumCounter === revisedRandom) {
+            winCounter++;
+            // call function to reset game
+            restart();
+
+        } else if (totalSumCounter > revisedRandom) {
+            lossesCounter++;
+            // call function to reset game
+            restart();
+
+
+
+        }
+
+
+
         $('#matchingTotal').html("Your total score:  " + totalSumCounter);
         $('#wintotal').html("Wins:  " + winCounter);
         $('#lose').html("Losses:  " + lossesCounter);
-        console.log(winCounter);
-        console.log(lossesCounter);
+        console.log(winCounter + "you win");
+        console.log(lossesCounter + "you lost");
 
 
 
         // not sure if my winCounter is working.. :(
-        if ($('#matchingTotal') === $('#random')) {
-            winCounter++;
-        } else if ($('#matchingTotal') !== $('#random')) {
-            lossesCounter++;
-            // ---------not sure why this isnt working. Tried to set an alert to restart the game. 
-        } else if ($('#lose') === 10) {
-            alert("You lost! To play again please hit refresh");
 
-        }
         // need to add win and lose nums
         // if/else statement here
         // need to pass the matching num into the win to the winCounter
 
 
-
-
-
     })
+    console.log(totalSumCounter);
+    var restart = function () {
+        revisedRandom = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
+        totalSumCounter = 0;
+        $('#matchingTotal').html("Your total score:  " + totalSumCounter);
+        $("#random").html(revisedRandom);
+    }
 
-    // list all of the pressed and trying to sum them up
-    // $(".button").keypress(function () {
-    //     var sumPerClick = value;
-
-    // });
 
 
 
