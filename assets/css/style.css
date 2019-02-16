@@ -140,10 +140,10 @@ p {
 }
 .button {
   display: inline-flex;
-  margin-left: 50px;
+  margin-left: 37px;
   position: relative;
   bottom: -4px;
-  left: -16px;
+  left: 14px;
   background: none;
   border: none;
 }
@@ -175,15 +175,15 @@ p {
   }
  
 }
-/* @media (min-width: 480px) {
+@media (min-width: 480px) {
   .content {
     align-content: center;
   }
   .multibuts {
     align-content: center;
-    width: 350px;
+    
   }
   .button {
     align-content: center;
-    margin: 15px;
-  } */
+  }
+}
