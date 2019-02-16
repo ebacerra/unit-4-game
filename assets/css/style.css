@@ -1,13 +1,14 @@
 body {
   width: 980px;
-  /* background-image: url("../images/brick-wall.jpeg");
-    background-repeat: no-repeat; */
+  align-self: auto;
+  margin: 20px;
 }
 .content {
-  max-width: 500px;
-  margin: auto;
+    align-self: auto;
+    width: 980px;
+    height: 822px;
 }
-.container {
+.head-container {
   width: 980px;
   height: 300px;
   background-color: #64516e;
@@ -20,10 +21,9 @@ body {
   background-image: url("../images/Patterns.jpg");
 }
 .titleBox {
-  border-radius: 40px;
-  position: relative;
-  left: 102px;
-  top: 58px;
+    position: relative;
+    left: 50px;
+    top: 58px;
 }
 h3 {
   position: relative;
@@ -40,7 +40,7 @@ h3 {
 
 h2 {
   align-content: center;
-  width: 745px;
+  width: 400px;
   text-align: center;
   margin-right: 20px;
   position: relative;
@@ -66,9 +66,7 @@ p {
 
 #matchingTotal {
   position: relative;
-  display: flex;
-  color: rgb(54, 53, 53);
-  left: 678px;
+  left: 493px;
   top: 32px;
   width: 300px;
   height: 150px;
@@ -76,35 +74,39 @@ p {
   font-size: 30px;
   font-weight: bold;
   border-radius: 10px;
+  padding: 25px;
+  box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
 }
 
 #wintotal {
   position: relative;
-  display: flex;
   color: rgb(54, 53, 53);
   font-size: 30px;
   font-weight: bold;
-  left: 361px;
+  left: 154px;
   top: -354px;
-  width: 300px;
+  width: 235px;
   height: 80px;
   background-color: rgb(131, 224, 131);
   border-radius: 10px;
+  padding: 10px;
+  box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
 }
 #lose {
-  display: inline;
   color: rgb(54, 53, 53);
   bottom: 200px;
   position: absolute;
-  left: 602px;
+  left: 175px;
   top: 568px;
-  width: 300px;
+  width: 235px;
   height: 80px;
   background-color: rgb(163, 181, 156);
   bottom: 175px;
   font-size: 30px;
   font-weight: bold;
   border-radius: 10px;
+  padding: 10px;
+  box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
 }
 #random2 {
   position: relative;
@@ -153,25 +155,24 @@ p {
   box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
 }
 
-@media screen and (min-width: 980px) {
-  .content {
-    align-content: center;
-  }
-}
-
-@media screen and (min-width: 660px) {
+@media (min-width: 980px) {
   .content {
     align-content: center;
   }
   .multibuts {
     align-content: center;
-    width: 350px;
+}
+
+@media (min-width: 660px) {
+  .content {
+    align-content: center;
   }
   .button {
     align-content: center;
   }
+ 
 }
-@media screen and (min-width: 480px) {
+/* @media (min-width: 480px) {
   .content {
     align-content: center;
   }
@@ -182,5 +183,4 @@ p {
   .button {
     align-content: center;
     margin: 15px;
-  }
-}
+  } */
