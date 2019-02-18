@@ -6,7 +6,7 @@ body {
 .content {
   width: 980px;
   height: 822px;
-  align-content: center;
+  margin: 0 auto;
 }
 .head-container {
   width: 980px;
@@ -36,6 +36,17 @@ h3 {
   position: relative;
   left: 27px;
   top: 65px;
+  height: 250px;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  background-color: rgb(218, 97, 126);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(245, 248, 249);
+  border-radius: 10px;
+  width: 745px;
+  box-shadow: 1px 2px 4px rgba(247, 247, 247, 0.801);
 }
 
 h2 {
@@ -50,27 +61,37 @@ h2 {
   color: rgb(122, 50, 189);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 25px;
-  box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
+  box-shadow: 1px 2px 4px rgba(247, 247, 247, 0.801);
 }
-p {
-  height: 250px;
-  text-align: center;
+/* p {
+  
+} */
+
+.score {
   position: relative;
-  padding: 20px;
-  background-color: rgb(218, 97, 126);
-  font-size: 20px;
-  font-weight: bold;
-  color: rgb(245, 248, 249);
-  border-radius: 10px;
-  width: 745px;
-  box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
+  display: flex;
+  bottom: 360px;
+  width: 600px;
+  height: 150px;
 }
 
+#random {
+  position: relative;
+  left: 60px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(118, 252, 225);
+  color: rgb(54, 53, 53);
+  font-size: 50px;
+  font-weight: bolder;
+  border-radius: 10px;
+  padding: 35px;
+  box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
+}
 #matchingTotal {
   position: relative;
-  left: 493px;
-  top: 32px;
-  width: 300px;
+  left: 100px;
+  width: 50%;
   height: 150px;
   background-color: #b073d0;
   font-size: 30px;
@@ -80,13 +101,20 @@ p {
   box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
 }
 
+.score1 {
+  position: relative;
+  display: flex;
+  bottom: 500px;
+  width: 380px;
+  height: 150px;
+  left: 680px;
+}
 #wintotal {
   position: relative;
   color: rgb(54, 53, 53);
   font-size: 30px;
   font-weight: bold;
-  left: 154px;
-  top: -354px;
+  top: -14px;
   width: 235px;
   height: 80px;
   background-color: rgb(131, 224, 131);
@@ -98,8 +126,7 @@ p {
   color: rgb(54, 53, 53);
   bottom: 200px;
   position: absolute;
-  left: 175px;
-  top: 568px;
+  top: 87px;
   width: 235px;
   height: 80px;
   background-color: rgb(163, 181, 156);
@@ -108,9 +135,9 @@ p {
   font-weight: bold;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
+  box-shadow: 1px 2px 4px rgba(196, 196, 196, 0.99);
 }
-#random2 {
+/* #random2 {
   position: relative;
   display: flex;
   left: 830px;
@@ -122,22 +149,8 @@ p {
   font-size: 40px;
   font-weight: bolder;
   border-radius: 10px;
-}
+} */
 
-#random {
-  position: relative;
-  left: 800px;
-  top: -73px;
-  width: 150px;
-  height: 150px;
-  background-color: rgb(118, 252, 225);
-  color: rgb(54, 53, 53);
-  font-size: 50px;
-  font-weight: bolder;
-  border-radius: 10px;
-  padding: 35px;
-  box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
-}
 .button {
   display: inline-flex;
   margin-left: 37px;
@@ -153,33 +166,191 @@ p {
   background-color: #f0e5e5;
   position: relative;
   left: 152px;
-  bottom: 215px;
+  bottom: 440px;
   border-radius: 145px;
   box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
 }
 
 @media screen and (min-width: 980px) {
   .content {
-    align-content: center;
+    width: 100%;
+  }
+  .head-container {
+    width: 100%;
+  }
+  .container2 {
+    width: 100%;
   }
 }
 
-@media screen and (min-width: 660px) {
+/* .score {
+    width: 70%;
+    height: 20%;
+    float: left;
+  } */
+
+@media screen and (max-width: 660px) {
   .content {
-    align-content: center;
+    width: 70%;
+  }
+  .head-container {
+    width: 70%;
+  }
+  .container2 {
+    width: 70%;
+    float: left;
+  }
+  .descripBox {
+    width: 80%;
+    height: 94%;
+    font-size: 15px;
+  }
+  .score {
+    width: 50%;
+    height: 40%;
+    bottom: 333px;
+  }
+  #random {
+    font-size: 45px;
+    width: 30%;
+    height: 25%;
+    padding: 10px;
+  }
+  #matchingTotal {
+    font-size: 20px;
+    width: 60%;
+    height: 25%;
+    padding: 10px;
+  }
+  .score1 {
+    float: left;
+    font-size: 15px;
+    height: 50%;
+    width: 70%;
+    left: 30px;
+    /* top: 30px; */
+    bottom: 556px;
+  }
+  #wintotal {
+    font-size: 20px;
+    width: 25%;
+    height: 15%;
+    padding: 10px;
+    left: 80px;
+    top: -10px;
+  }
+  #lose {
+    font-size: 20px;
+    width: 25%;
+    height: 15%;
+    padding: 10px;
+    left: 216px;
+    top: -10px;
+  }
+  .multibuts {
+    width: 53%;
+    height: 13%;
+    left: 56px;
+    top: -467px;
+  }
+  .button {
+    position: relative;
+    top: -389px;
+    bottom: 292%;
+    left: 18px;
+    margin-left: 0px;
+  }
+  img {
+    height: 65px;
+    width: 65px;
   }
 }
 @media screen and (max-width: 480px) {
   .content {
-    align-content: center;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+  }
+  .head-container {
+    width: 70%;
+  }
+  h2 {
+    width: 320px;
+    font-size: xx-large;
+  }
+  .descripBox {
+    width: 70%;
+    height: 75%;
+    font-size: 12px;
+    left: 44px;
+  }
+  .container2 {
+    width: 70%;
+  }
+  .titleBox {
     width: 50%;
+    font-size: 25px;
+  }
+  .score {
+    width: 60%;
+    height: 60%;
+    bottom: 315px;
+  }
+  #random {
+    font-size: 45px;
+    width: 30%;
+    height: 25%;
+    padding: 15px;
+    top: -67px;
+    left: 48px;
+    text-align: center;
+  }
+  #matchingTotal {
+    font-size: 20px;
+    width: 46%;
+    /* height: 76%; */
+    padding: 18px;
+    top: -67px;
+    left: 62px;
+    text-align: center;
+  }
+
+  .score1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    font-size: 15px;
+  }
+  #wintotal {
+    font-size: 20px;
+    width: 50%;
+    height: 15%;
+    padding: 10px;
+    left: 94px;
+    top: 185px;
+  }
+  #lose {
+    font-size: 20px;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    left: 95px;
+    top: 241px;
   }
   .multibuts {
-    align-content: center;
-    float: left;
+    width: 55%;
+    top: -248px;
+    left: 20px;
+    height: 27%;
   }
   .button {
-    align-content: center;
-    float: left;
+    position: relative;
+    top: -17px;
+    bottom: 292%;
+    left: 24px;
+  }
+  img {
+    height: 65px;
+    width: 65px;
   }
 }
