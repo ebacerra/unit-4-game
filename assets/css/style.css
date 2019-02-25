@@ -291,12 +291,13 @@ h2 {
 
   .multibuts {
     float: left;
-    width: 68%;
-    left: 90px;
+    width: 60%;
+    left: 116px;
+}
   }
 
   .button {
-    margin-left: 5px;
+    margin-left: 0px;
   }
   img {
     height: 83px;
