@@ -1,12 +1,11 @@
 body {
   width: 980px;
-  align-content: center;
+  align-self: auto;
   margin: 20px;
 }
 .content {
   width: 980px;
   height: 822px;
-  margin: 0 auto;
 }
 .head-container {
   width: 980px;
@@ -14,39 +13,30 @@ body {
   background-color: #64516e;
   align-content: center;
   position: relative;
+  left: 15px;
 }
 .container2 {
   width: 980px;
-  height: 520px;
+  height: 870px;
   background-image: url("../images/Patterns.jpg");
 }
 .titleBox {
   position: relative;
   left: 50px;
-  top: 58px;
+  top: -47px;
 }
 h3 {
   position: relative;
-  left: 102px;
-  top: 64px;
+
+  top: 5px;
   padding: left;
   color: #ffffff;
+  font-family: "Trebuchet MS";
 }
 .descripBox {
   position: relative;
-  left: 27px;
-  top: 65px;
-  height: 250px;
-  text-align: center;
-  position: relative;
-  padding: 20px;
-  background-color: rgb(218, 97, 126);
-  font-size: 20px;
-  font-weight: bold;
-  color: rgb(245, 248, 249);
-  border-radius: 10px;
-  width: 745px;
-  box-shadow: 1px 2px 4px rgba(247, 247, 247, 0.801);
+  top: -130px;
+  left: 16px;
 }
 
 h2 {
@@ -61,37 +51,29 @@ h2 {
   color: rgb(122, 50, 189);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 25px;
-  box-shadow: 1px 2px 4px rgba(247, 247, 247, 0.801);
+  box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
 }
-/* p {
-  
-} */
-
+.how-to-play {
+  height: 296px;
+  position: relative;
+  left: 50px;
+  top: -5px;
+  background-color: rgb(218, 97, 126);
+  font-size: 20px;
+  color: rgb(245, 248, 249);
+  border-radius: 10px;
+  width: 739px;
+  box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
+}
 .score {
   position: relative;
-  display: flex;
-  bottom: 360px;
-  width: 600px;
-  height: 150px;
-}
-
-#random {
-  position: relative;
-  left: 60px;
-  width: 150px;
-  height: 150px;
-  background-color: rgb(118, 252, 225);
-  color: rgb(54, 53, 53);
-  font-size: 50px;
-  font-weight: bolder;
-  border-radius: 10px;
-  padding: 35px;
-  box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
+  bottom: 253px;
 }
 #matchingTotal {
   position: relative;
-  left: 100px;
-  width: 50%;
+  left: 78px;
+  top: 155px;
+  width: 300px;
   height: 150px;
   background-color: #b073d0;
   font-size: 30px;
@@ -101,20 +83,13 @@ h2 {
   box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
 }
 
-.score1 {
-  position: relative;
-  display: flex;
-  bottom: 500px;
-  width: 380px;
-  height: 150px;
-  left: 680px;
-}
 #wintotal {
   position: relative;
   color: rgb(54, 53, 53);
   font-size: 30px;
   font-weight: bold;
-  top: -14px;
+  left: 120px;
+  top: 190px;
   width: 235px;
   height: 80px;
   background-color: rgb(131, 224, 131);
@@ -126,7 +101,8 @@ h2 {
   color: rgb(54, 53, 53);
   bottom: 200px;
   position: absolute;
-  top: 87px;
+  left: 685px;
+  top: 191px;
   width: 235px;
   height: 80px;
   background-color: rgb(163, 181, 156);
@@ -135,9 +111,9 @@ h2 {
   font-weight: bold;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 1px 2px 4px rgba(196, 196, 196, 0.99);
+  box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
 }
-/* #random2 {
+#random2 {
   position: relative;
   display: flex;
   left: 830px;
@@ -149,14 +125,30 @@ h2 {
   font-size: 40px;
   font-weight: bolder;
   border-radius: 10px;
-} */
+}
+
+#random {
+  position: relative;
+  text-align: center;
+  left: 100px;
+  top: 35px;
+  width: 175px;
+  height: 175px;
+  background-color: rgb(118, 252, 225);
+  color: rgb(54, 53, 53);
+  font-size: 80px;
+  font-weight: bolder;
+  border-radius: 10px;
+  padding: 20px 5px;
+  box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
+}
 
 .button {
   display: inline-flex;
   margin-left: 37px;
   position: relative;
   bottom: -4px;
-  left: 14px;
+  left: 2px;
   background: none;
   border: none;
 }
@@ -165,192 +157,82 @@ h2 {
   height: 109px;
   background-color: #f0e5e5;
   position: relative;
-  left: 152px;
-  bottom: 440px;
+  left: 168px;
+  bottom: 20px;
   border-radius: 145px;
   box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (max-width: 980px) {
   .content {
+    align-content: auto;
     width: 100%;
+    height: 60%;
+  }
+
+  .descripBox {
+    float: left;
+    width: 100%;
+  }
+  .how-to-play {
+    width: 70%;
+    height: 90%;
+    float: left;
+    padding: 20px;
+  }
+  .random-row2 {
+    width: 20%;
+    left: -28px;
   }
   .head-container {
+    align-self: auto;
+  }
+
+  .score {
     width: 100%;
   }
-  .container2 {
+  /* .score-1 {
     width: 100%;
-  }
+  } */
 }
 
-/* .score {
-    width: 70%;
-    height: 20%;
-    float: left;
-  } */
-
-@media screen and (max-width: 660px) {
+/* @media screen and (max-width: 660px) {
   .content {
-    width: 70%;
+    float: left;
+    width: 100%;
+    height: 980px;
   }
   .head-container {
-    width: 70%;
+    align-self: auto;
   }
-  .container2 {
+  .how-to-play {
     width: 70%;
+    height: 80%;
     float: left;
   }
-  .descripBox {
-    width: 80%;
-    height: 94%;
-    font-size: 15px;
+  .random-row2 {
+    width: 30%;
+    float: left;
+    top: 20px;
   }
   .score {
-    width: 50%;
-    height: 40%;
-    bottom: 333px;
-  }
-  #random {
-    font-size: 45px;
-    width: 30%;
-    height: 25%;
-    padding: 10px;
-  }
-  #matchingTotal {
-    font-size: 20px;
-    width: 60%;
-    height: 25%;
-    padding: 10px;
-  }
-  .score1 {
     float: left;
-    font-size: 15px;
-    height: 50%;
     width: 70%;
-    left: 30px;
-    /* top: 30px; */
-    bottom: 556px;
   }
-  #wintotal {
-    font-size: 20px;
-    width: 25%;
-    height: 15%;
-    padding: 10px;
-    left: 80px;
-    top: -10px;
-  }
-  #lose {
-    font-size: 20px;
-    width: 25%;
-    height: 15%;
-    padding: 10px;
-    left: 216px;
-    top: -10px;
+  .score-1 {
+    float: left;
+    width: 30%;
   }
   .multibuts {
-    width: 53%;
-    height: 13%;
-    left: 56px;
-    top: -467px;
+    float: left;
+    width: 70%;
   }
-  .button {
-    position: relative;
-    top: -389px;
-    bottom: 292%;
-    left: 18px;
-    margin-left: 0px;
-  }
-  img {
-    height: 65px;
-    width: 65px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .content {
+} */
+
+/* @media screen and (max-width: 480px) {
+  .random-row2 {
+    float: center;
     width: 70%;
     height: 70%;
-    margin: 0 auto;
   }
-  .head-container {
-    width: 70%;
-  }
-  h2 {
-    width: 320px;
-    font-size: xx-large;
-  }
-  .descripBox {
-    width: 70%;
-    height: 75%;
-    font-size: 12px;
-    left: 44px;
-  }
-  .container2 {
-    width: 70%;
-  }
-  .titleBox {
-    width: 50%;
-    font-size: 25px;
-  }
-  .score {
-    width: 60%;
-    height: 60%;
-    bottom: 315px;
-  }
-  #random {
-    font-size: 45px;
-    width: 30%;
-    height: 25%;
-    padding: 15px;
-    top: -67px;
-    left: 48px;
-    text-align: center;
-  }
-  #matchingTotal {
-    font-size: 20px;
-    width: 46%;
-    /* height: 76%; */
-    padding: 18px;
-    top: -67px;
-    left: 62px;
-    text-align: center;
-  }
-
-  .score1 {
-    width: 50%;
-    height: 50%;
-    float: left;
-    font-size: 15px;
-  }
-  #wintotal {
-    font-size: 20px;
-    width: 50%;
-    height: 15%;
-    padding: 10px;
-    left: 94px;
-    top: 185px;
-  }
-  #lose {
-    font-size: 20px;
-    width: 50%;
-    height: 100%;
-    padding: 10px;
-    left: 95px;
-    top: 241px;
-  }
-  .multibuts {
-    width: 55%;
-    top: -248px;
-    left: 20px;
-    height: 27%;
-  }
-  .button {
-    position: relative;
-    top: -17px;
-    bottom: 292%;
-    left: 24px;
-  }
-  img {
-    height: 65px;
-    width: 65px;
-  }
-}
+} */
