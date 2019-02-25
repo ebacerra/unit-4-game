@@ -243,6 +243,11 @@ h2 {
   .titleBox {
     font-size: 40px;
     top: -40px;
+    width: 60%;
+  }
+  h2 {
+    font-size: 35px;
+    width: 342px;
   }
   .head-container {
     float: left;
@@ -264,7 +269,7 @@ h2 {
   }
   .score {
     float: left;
-    width: 70%;
+    width: 76%;
   }
   #matchingTotal {
     top: 141px;
@@ -273,7 +278,7 @@ h2 {
   }
   #lose {
     width: 235px;
-    left: 363px;
+    left: 383px;
   }
   /* .score-1 {
     float: left;
@@ -286,12 +291,12 @@ h2 {
 
   .multibuts {
     float: left;
-    width: 73%;
+    width: 68%;
     left: 90px;
   }
 
   .button {
-    margin-left: 20px;
+    margin-left: 5px;
   }
   img {
     height: 83px;
