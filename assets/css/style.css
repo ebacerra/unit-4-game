@@ -54,7 +54,8 @@ h2 {
   box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
 }
 .how-to-play {
-  height: 296px;
+  height: 282px;
+  padding: 10px;
   position: relative;
   left: 50px;
   top: -5px;
@@ -113,7 +114,7 @@ h2 {
   padding: 10px;
   box-shadow: 1px 2px 4px rgba(113, 113, 113, 0.99);
 }
-#random2 {
+/* #random2 {
   position: relative;
   display: flex;
   left: 830px;
@@ -125,12 +126,12 @@ h2 {
   font-size: 40px;
   font-weight: bolder;
   border-radius: 10px;
-}
+} */
 
 #random {
   position: relative;
   text-align: center;
-  left: 100px;
+  left: 70px;
   top: 35px;
   width: 175px;
   height: 175px;
@@ -236,21 +237,26 @@ h2 {
 @media screen and (max-width: 480px) {
   .content {
     float: left;
-    width: 80%;
+    width: 70%;
     height: 100%;
+  }
+  .head-container {
+    float: left;
+    width: 100%;
   }
   .how-to-play {
     font-size: 15px;
-    width: 60%;
+    width: 50%;
     height: 80%;
     float: left;
+    left: 31px;
   }
 
   .random-row2 {
     float: center;
     width: 20%;
-    font-size: 30px;
-    left: -42px;
+    font-size: 20px;
+    left: -27px;
   }
   .score {
     float: left;
@@ -262,8 +268,8 @@ h2 {
     left: 81px;
   }
   #lose {
-    left: 394px;
     width: 235px;
+    left: 363px;
   }
   /* .score-1 {
     float: left;
@@ -276,12 +282,17 @@ h2 {
 
   .multibuts {
     float: left;
-    width: 75%;
-    left: 96px;
+    width: 78%;
+    left: 55px;
+  }
+
+  .button {
+    margin-left: 25px;
   }
   img {
-    height: 85px;
-    width: 76px;
+    height: 83px;
+    width: 77px;
     padding-top: 10px;
+    left: 7px;
   }
 }
