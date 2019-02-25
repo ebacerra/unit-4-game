@@ -240,19 +240,14 @@ h2 {
     width: 70%;
     height: 100%;
   }
-  /* .titleBox {
-    font-size: 40px;
+  .titleBox {
     top: -40px;
-    width: 60%;
+    width: 70%;
   }
   h2 {
-    font-size: 35px;
-    width: 342px;
-  } */
-  /* .head-container {
-    float: left;
-    width: 100%;
-  } */
+    font-size: 40px;
+    width: 70%;
+  }
   .how-to-play {
     font-size: 15px;
     width: 50%;
