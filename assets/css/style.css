@@ -240,6 +240,10 @@ h2 {
     width: 70%;
     height: 100%;
   }
+  .titleBox {
+    font-size: 40px;
+    top: -40px;
+  }
   .head-container {
     float: left;
     width: 100%;
@@ -282,12 +286,12 @@ h2 {
 
   .multibuts {
     float: left;
-    width: 78%;
-    left: 55px;
+    width: 73%;
+    left: 90px;
   }
 
   .button {
-    margin-left: 25px;
+    margin-left: 20px;
   }
   img {
     height: 83px;
