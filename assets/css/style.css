@@ -240,7 +240,7 @@ h2 {
     width: 70%;
     height: 100%;
   }
-  .titleBox {
+  /* .titleBox {
     font-size: 40px;
     top: -40px;
     width: 60%;
@@ -248,11 +248,11 @@ h2 {
   h2 {
     font-size: 35px;
     width: 342px;
-  }
-  .head-container {
+  } */
+  /* .head-container {
     float: left;
     width: 100%;
-  }
+  } */
   .how-to-play {
     font-size: 15px;
     width: 50%;
