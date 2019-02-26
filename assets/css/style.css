@@ -238,6 +238,7 @@ h2 {
     float: left;
     width: 55%;
     height: 100%;
+    margin-top: 30px;
   }
   .descripBox {
     float: left;
@@ -245,7 +246,7 @@ h2 {
     top: -69px;
   }
   .titleBox {
-    top: 37px;
+    top: 22px;
     width: 70%;
   }
   h2 {
@@ -277,7 +278,11 @@ h2 {
   }
   #lose {
     width: 235px;
-    left: 306px;
+    left: 284px;
+  }
+  #wintotal {
+    top: -7px;
+    left: 283px;
   }
   /* .score-1 {
     float: left;
