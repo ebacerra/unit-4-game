@@ -240,6 +240,11 @@ h2 {
     width: 60%;
     height: 100%;
   }
+  .descripBox {
+    float: left;
+    width: 100%;
+    top: -69px;
+  }
   .titleBox {
     top: -40px;
     width: 70%;
@@ -249,7 +254,7 @@ h2 {
     width: 90%;
   }
   .how-to-play {
-    font-size: 15px;
+    font-size: 13px;
     width: 50%;
     height: 80%;
     float: left;
@@ -257,14 +262,14 @@ h2 {
   }
 
   .random-row2 {
-    float: center;
     width: 20%;
     font-size: 20px;
-    left: -27px;
+    left: -18px;
   }
   .score {
     float: left;
     width: 76%;
+    bottom: 200px;
   }
   #matchingTotal {
     top: 141px;
@@ -285,8 +290,8 @@ h2 {
   } */
 
   .multibuts {
-    width: 70%;
-    left: 116px;
+    width: 77%;
+    left: 80px;
   }
 
   .button {
