@@ -251,6 +251,7 @@ h2 {
   h2 {
     font-size: 35px;
     width: 90%;
+    top: 57px;
   }
   .how-to-play {
     font-size: 13px;
@@ -289,7 +290,7 @@ h2 {
   } */
 
   .multibuts {
-    width: 83%;
+    width: 90%;
     left: 57px;
   }
 
