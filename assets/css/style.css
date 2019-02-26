@@ -1,7 +1,6 @@
 body {
   width: 980px;
   align-self: auto;
-  margin: 20px;
 }
 .content {
   width: 980px;
@@ -237,7 +236,7 @@ h2 {
 @media screen and (max-width: 480px) {
   .content {
     float: left;
-    width: 60%;
+    width: 57%;
     height: 100%;
   }
   .descripBox {
@@ -268,7 +267,7 @@ h2 {
   }
   .score {
     float: left;
-    width: 76%;
+    width: 80%;
     bottom: 200px;
   }
   #matchingTotal {
@@ -290,8 +289,8 @@ h2 {
   } */
 
   .multibuts {
-    width: 77%;
-    left: 80px;
+    width: 83%;
+    left: 57px;
   }
 
   .button {
