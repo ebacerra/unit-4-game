@@ -273,16 +273,13 @@ h2 {
   }
   #matchingTotal {
     top: 141px;
-    width: 43%;
+    width: 40%;
     left: 41px;
+    font-size: 25px;
   }
   #lose {
     width: 235px;
-    left: 284px;
-  }
-  #wintotal {
-    top: -7px;
-    left: 283px;
+    left: 304px;
   }
   /* .score-1 {
     float: left;
