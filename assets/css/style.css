@@ -241,17 +241,16 @@ h2 {
   }
   .descripBox {
     float: left;
-    width: 85%;
+    width: 100%;
     top: -69px;
   }
   .titleBox {
-    top: -40px;
+    top: 37px;
     width: 70%;
   }
   h2 {
     font-size: 30px;
     width: 100%;
-    top: 60px;
   }
   .how-to-play {
     font-size: 13px;
@@ -268,7 +267,7 @@ h2 {
   }
   .score {
     float: left;
-    width: 80%;
+    width: 77%;
     bottom: 200px;
   }
   #matchingTotal {
