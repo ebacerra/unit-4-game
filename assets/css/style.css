@@ -236,12 +236,12 @@ h2 {
 @media screen and (max-width: 480px) {
   .content {
     float: left;
-    width: 57%;
+    width: 55%;
     height: 100%;
   }
   .descripBox {
     float: left;
-    width: 100%;
+    width: 85%;
     top: -69px;
   }
   .titleBox {
@@ -278,7 +278,7 @@ h2 {
   }
   #lose {
     width: 235px;
-    left: 324px;
+    left: 316px;
   }
   /* .score-1 {
     float: left;
