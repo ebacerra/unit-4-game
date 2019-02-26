@@ -191,10 +191,7 @@ h2 {
   .score {
     width: 100%;
   }
-  /* .score-1 {
-    width: 100%;
-  } */
-}
+
 
 @media screen and (max-width: 660px) {
   .content {
@@ -217,19 +214,26 @@ h2 {
   }
   .score {
     float: left;
-    width: 60%;
+    width: 100%;
   }
-  .score-1 {
-    float: left;
-    width: 20%;
+  #matchingTotal {
+    width: 50%;
   }
-  .score-2 {
-    float: left;
-    width: 20%;
+  #lose {
+    width: 235px;
+    left: 613px;
   }
   .multibuts {
     float: left;
-    width: 70%;
+    width: 67%;
+  }
+  /* .button {
+    margin-left: 20px;
+  } */
+  img {
+    height: 90px;
+    width: 90px;
+    padding-top: 11px;
   }
 }
 
