@@ -10,7 +10,6 @@ body {
   width: 980px;
   height: 300px;
   background-color: #64516e;
-  align-content: center;
   position: relative;
   left: 15px;
 }
@@ -40,6 +39,7 @@ h3 {
 
 h2 {
   align-content: center;
+  top: 92px;
   width: 400px;
   text-align: center;
   margin-right: 20px;
