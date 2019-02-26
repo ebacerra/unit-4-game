@@ -237,7 +237,7 @@ h2 {
 @media screen and (max-width: 480px) {
   .content {
     float: left;
-    width: 70%;
+    width: 60%;
     height: 100%;
   }
   .titleBox {
@@ -245,8 +245,8 @@ h2 {
     width: 70%;
   }
   h2 {
-    font-size: 40px;
-    width: 70%;
+    font-size: 35px;
+    width: 90%;
   }
   .how-to-play {
     font-size: 15px;
@@ -268,12 +268,12 @@ h2 {
   }
   #matchingTotal {
     top: 141px;
-    width: 50%;
-    left: 81px;
+    width: 45%;
+    left: 56px;
   }
   #lose {
     width: 235px;
-    left: 383px;
+    left: 324px;
   }
   /* .score-1 {
     float: left;
