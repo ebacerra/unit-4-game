@@ -20,7 +20,7 @@ body {
 }
 .titleBox {
   position: relative;
-  left: 50px;
+  height: 200px;
   top: -47px;
 }
 h3 {
